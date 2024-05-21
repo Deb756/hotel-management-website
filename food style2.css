@@ -1,0 +1,265 @@
+/* Book a table page innitiated */
+
+.book-table-cont {
+    height: 64vh;
+}
+
+.food-menu-cont1 {
+    margin-top: -241px;
+}
+
+.positioning {
+    position: relative;
+    /* top: -252px; */
+    /* left: 176px; */
+    top: -207px;
+}
+
+.book-table-cont h2 {
+    margin-top: 33px;
+}
+
+.food-menu-cont1 p {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.tablecont2 {
+    width: 54vw;
+    padding: 32px 29px 44px 29px;
+    border-radius: 22px;
+    margin-top: 47px;
+    background-color: white;
+    box-shadow: 0px 36px 58px 25px rgba(0, 0, 0, 0.1);
+}
+
+.tablecont2 p {
+    display: inline;
+    font-size: 18px;
+}
+
+.left {
+    margin-top: -100px;
+    /* margin-left: 8px; */
+    float: right;
+}
+
+.margin {
+    margin: 25px 2px 10px 1px;
+}
+
+.inpitem input {
+    height: 6vh;
+    width: 20vw;
+    border: 2px solid #e7e7c6;
+    border-radius: 18px;
+    padding: 0px 9px 0px 13px;
+    /* padding-left: 16px; */
+    margin: 7px 0px 7px 0px;
+    outline: none;
+}
+
+.inpitem select {
+    height: 6vh;
+    width: 29vw;
+    border: 2px solid #e7e7c6;
+    border-radius: 18px;
+    padding: 0px 9px 0px 13px;
+    /* padding-left: 16px; */
+    outline: none;
+}
+
+.inpitem button {
+    /* margin: 5px; */
+    font-size: 11px;
+    width: 29vw;
+}
+
+.inpitem button:hover {
+    background-color: brown;
+    color: whitesmoke;
+}
+
+
+/* @nd container innnitiated */
+
+.book-table-cont2 {
+    height: 82vh;
+    width: 100%;
+    background: url(book\ table\ map.png)no-repeat center center/cover;
+    background-color: blue;
+}
+
+
+/* Food Page / Article page innitiated */
+
+.article-page {
+    background-color: #F9F9F7;
+}
+
+.article-page p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.article-cont h2 {
+    margin: 37px 0px;
+    font-size: 63px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.article-cont img {
+    margin: 37px 0px;
+    border-radius: 18px;
+}
+
+.article-para {
+    width: 73vw;
+}
+
+.article-para h3 {
+    margin: 28px 2px 13px 2px;
+    font-size: 20px;
+}
+
+.article-para h4 {
+    display: inline;
+}
+
+.para-btm {
+    margin-bottom: 56px;
+    margin-left: -49px;
+}
+
+@media screen and (max-device-width: 1023px) {
+    .article-page img {
+        height: 39vh;
+        width: 62%;
+    }
+    /* .article-page {
+        /* background-color: red; 
+    } */
+}
+
+
+/* Article cont2 innitiated */
+
+.article-cont2 {
+    background-color: white;
+}
+
+.innercontart2 h2 {
+    text-align: center;
+    margin: 55px 0px 10px 0px;
+    font-size: 58px;
+    font-weight: lighter;
+}
+
+.bellow-h2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter !important;
+    margin-bottom: 39px;
+}
+
+.artcont2boxes {
+    /* background-color: red; */
+    width: 95vw;
+    /* height: 40vh; */
+    margin: auto;
+    margin-bottom: 53px;
+}
+
+.artcont2boxes p {
+    font-weight: lighter;
+    color: #afafaf;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.artcont2boxes h3 {
+    font-weight: lighter;
+    margin-bottom: 43px;
+    font-size: 12px;
+    display: inline;
+}
+
+.artcont2boxes img {
+    border-radius: 13px
+}
+
+
+/* Cotact us page innitiated here */
+
+.contactpg {
+    background-color: #f0f0ea !important;
+}
+
+
+/* .contactpg-2 {
+    /* background-color: red; 
+} */
+
+.forming {
+    /* background-color: blue; */
+    background-color: white;
+    box-shadow: 0px 1px 58px 25px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    position: relative;
+    border-radius: 29px;
+    top: -188px;
+}
+
+.forming button {
+    width: 100%;
+    font-size: 19px;
+}
+
+.inpitem textarea {
+    border: 2px solid #e7e7c6;
+    border-radius: 18px;
+    padding: 0px 9px 0px 13px;
+    /* padding-left: 16px; */
+    margin: 7px 0px 7px 0px;
+    outline: none;
+    width: 100%;
+}
+
+.forming p {
+    display: inline;
+    font-size: 18px;
+}
+
+.name1 {
+    margin: 10px;
+}
+
+.contactinfo {
+    margin: -133px 0px 70px 0px;
+    background-color: white;
+    box-shadow: 0px 36px 58px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contactinfo1 {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 35px
+}
+
+.contactinfo1 h2 {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.h22 {
+    color: brown;
+}
+
+.contactinfo1 p {
+    font-size: 13px;
+    font-weight: lighter;
+}
